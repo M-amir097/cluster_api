@@ -33,16 +33,16 @@ $ ./client_test
 Enter command: ★rを入力すると全テスト自動実行。 ★q入力で終了
 ```
 
-# ソース構成
+# ソース構成 Source Configuration
 
 - cluster_api/
     - include/
-        - 外部公開ヘッダ一式
+        - 外部公開ヘッダ一式 A set of externally published headers
     - src/
-        - cluster_apiライブラリ実装ソース
+        - cluster_apiライブラリ実装ソース Library implementation source
     - test/
         - client_test/
-            - Cluster APIテスト環境実装ソース
+            - Cluster APIテスト環境実装ソース Test environment implementation source
 
 # 生成物構成
 
